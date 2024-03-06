@@ -3,7 +3,7 @@ import socket
 UDP_IP = "127.0.0.1"
 UDP_PORT = 5005
 
-value = input("Digite o valor em reais: ")
+value = input("Digite o valor em reais $: ")
 currency = input("Digite a moeda desejada (dolar ou euro): ")
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
